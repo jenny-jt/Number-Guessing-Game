@@ -7,6 +7,7 @@ print("Hi There")
 #get player name
 name = input('What is your name? ')
 #choose random number between 1 and 100
+print(f'hi {name}')
 correct_num = random.randint(1,100)
 #repeat forever:
     # get guess
@@ -28,3 +29,4 @@ while True:
     elif guess > correct_num:
         print('too high, try again')
         guesses += 1
+print("does this change things?")
