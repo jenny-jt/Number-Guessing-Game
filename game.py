@@ -23,10 +23,12 @@ while True:
     if guess == correct_num:
         print (f'Congratulations! You guessed it in {guesses} tries')
         break
+    elif guess > 100:
+        print("Way too high, the number is from 1-100, try again")
+        guesses += 1
     elif guess < correct_num: 
         print('too low, try again')
         guesses += 1
     elif guess > correct_num:
         print('too high, try again')
         guesses += 1
-print("does this change things?")
