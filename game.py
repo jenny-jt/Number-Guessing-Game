@@ -7,7 +7,6 @@ print("Hi There")
 #get player name
 name = input('What is your name? ')
 #choose random number between 1 and 100
-print(f'hi {name}')
 correct_num = random.randint(1,100)
 #repeat forever:
     # get guess
